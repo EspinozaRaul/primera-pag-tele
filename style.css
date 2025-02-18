@@ -1,0 +1,228 @@
+    
+  
+  html{
+        font-family: "Darumadrop One", serif;
+        font-weight: 400;
+        font-style: normal;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+   }
+
+   body{
+        margin: 0;
+        background-color: rgb(226, 222, 169);
+        
+    }   
+
+    h1 {font-size: 4.2em; text-align: center; color: aliceblue;} 
+    h2{font-size: 3.5em;}
+    h3{font-size: 2.5em;}
+    p{font-size: 1.25em;}
+    ul{list-style: none;}
+
+    button{
+        margin: 0 auto 15px;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius:  10px;
+        border: 1.9px solid rgba(0,0,0,0.5);
+        box-shadow: 2px 2px 8px;
+        color: white;
+        background-color: crimson;
+        width: 10%;
+    }
+
+    button:hover{
+        background-color: rgb(177, 11, 44);
+    }
+
+    .container{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    header{
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+        url(img/banner\ luffy.webp); 
+        mask-image: linear-gradient(
+            black 95%,
+            transparent);
+        background-size:contain;
+        background-repeat: none;
+        
+    }
+
+    header form{
+        size-adjust: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+     header .logo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 4.4em;
+        color: rgb(173, 33, 33);
+        padding: 25px 30px;
+        margin: 0px;
+     }  
+
+     header .Label {
+        color: rgb(233, 184, 23);
+        font-size: 40px;
+     }
+
+     form input[type ="text"] {
+        width: 50%;
+        margin: 0 auto 5px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing:  border-box;
+     }
+
+     header nav{
+      
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+     }
+
+     nav a{
+        font-size: 25px;
+        color: rgb(119, 125, 206);
+        padding: 5px 10px;
+        text-decoration: none;
+     }
+
+     nav a:hover{
+        color: bisque;
+        border-radius: 3px;
+     } 
+
+     #inicio {
+        text-align: center;
+     }
+
+     #hero {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 70 px;
+        margin-top: 30px;
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+         url(img/trio-monstruoso.webp) ;
+         mask-image: linear-gradient(
+            transparent,
+            black 20%,
+            black 80%,
+            transparent 
+         );
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
+     }
+
+
+    #trabajo {
+        background-color: rgb(30,30,30);
+        color: white
+       
+    }
+
+     #trabajo .container{
+       text-align: center;
+      
+    }
+    #trabajo p{
+        display: none;
+        padding: 100px 0px;
+     }
+
+    #trabajo .boton{
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100px;
+     }
+
+     #trabajo .carta{
+        background-position: center center;
+        background-size: cover;
+        padding: 50px;
+        margin: 12px;
+        border-radius: 15px;
+     }
+
+     .carta:first-child{
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+            url(img/sanji-cocinando.jpg);
+        
+     }
+
+     .carta:nth-child(2){
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+            url(img/carpintero.webp);
+     }
+        
+     .carta:nth-child(3){
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+            url(img/chopper.webp);
+        
+     }
+
+     #caracteristicas .container{
+        color: aliceblue;
+        text-align: center;
+        padding: 100px 12px;
+        background-image: linear-gradient(
+            rgba(0,0,0,0.7),
+            rgba(0,0,0,0.7)),
+            url(img/tripulacion.webp);
+            mask-image: linear-gradient(
+                transparent,
+                black 20%,
+                black 80%,
+                transparent 
+             );
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center center;
+     }
+
+     #caracteristicas li{
+        margin: 12px 0px;
+        font-weight: bold;
+        
+     }
+     #Enviar-cartel {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 70 px;
+        margin-top: 30px;
+     }
+
+     footer{
+        background-color: rgb(160, 141, 112);
+     }
